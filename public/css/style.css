@@ -1,8 +1,27 @@
+/* css for home page*/
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: #004225; /*casino green */
+    color: white;
+    font-family: Arial;
+    margin: 0;
 }
 
-a {
-  color: #00B7FF;
+header {
+    background: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: gold;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.btn {
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
 }
