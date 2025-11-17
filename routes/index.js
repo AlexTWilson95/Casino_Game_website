@@ -27,4 +27,8 @@ router.get("/withdraw", (req, res) => {
 
 
 module.exports = router;
+router.get('/contact', (req, res) => {
+    res.render('contact');
+});
+
 

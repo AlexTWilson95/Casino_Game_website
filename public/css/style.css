@@ -1,0 +1,259 @@
+/* css for home page */
+body {
+    background: #004225; /* casino green */
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: gold;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.btn {
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+/* css for signin/signup pages */
+.auth-form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.auth-form label {
+    font-weight: bold;
+}
+
+.btn {
+    background: gold;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.gold-link {
+    color: gold;
+    font-weight: bold;
+}
+
+
+
+/* css for deposit page */
+.deposit-form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.deposit-form input,
+.deposit-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.deposit-form label {
+    font-weight: bold;
+}
+
+.deposit-form input::placeholder {
+    color: #bbbbbb;
+    letter-spacing: 2px;
+}
+
+
+
+/* css for feature page */
+.wallet-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    width: 300px;
+    margin: 15px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.wallet-amount {
+    font-size: 28px;
+    font-weight: bold;
+    color: gold;
+}
+
+.feature-buttons {
+    text-align: center;
+}
+
+.wide-btn {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+}
+
+.game-btn {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    background: #2ecc71; /* casino green highlight */
+}
+
+.game-btn.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+
+
+/* blackjack css*/
+.blackjack-table {
+    background: #063700;
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    border: 3px solid gold;
+    text-align: center;
+}
+
+.hand-section {
+    margin-bottom: 25px;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 22px;
+    min-width: 60px;
+    box-shadow: 0 0 10px black;
+}
+
+.card span {
+    font-size: 24px;
+}
+
+.hand-total {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+}
+
+.controls .btn {
+    width: 150px;
+    margin: 10px;
+}
+
+.hit-btn { background: #2ecc71; }
+.stand-btn { background: #e74c3c; }
+.restart-btn { background: #3498db; }
+
+
+
+/* cards css */
+.card.red {
+    color: red;
+}
+
+.card.black {
+    color: black;
+}
+
+
+
+
+/* withdraw styling */
+.withdraw-container {
+    width: 360px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #1c1c1c;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+    color: white;
+}
+
+.withdraw-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.withdraw-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    background: #2a2a2a;
+    color: white;
+    font-size: 16px;
+}
+
+.withdraw-btn {
+    width: 100%;
+    background: #c62828;
+    padding: 12px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.withdraw-btn:hover {
+    background: #e53935;
+}
+
+.success-message {
+    text-align: center;
+    color: #66ff66;
+    margin-top: 15px;
+    font-size: 18px;
+}
